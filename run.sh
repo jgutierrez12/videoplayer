@@ -1,6 +1,6 @@
 ffmpeg -rtsp_transport tcp \
-    -i "rtsp://user:password@ip:554/H264&ch=1&subtype=0" \
-    -i "rtsp://user:password@ip:554/H264&ch=2&subtype=0" \
+    -i "rtsp://admin:5219E4766d@192.168.1.88:554/H264&ch=1&subtype=0" \
+    -i "rtsp://admin:5219E4766d@192.168.1.88:554/H264&ch=2&subtype=0" \
     -filter_complex "
         nullsrc=size=960x1080 [base];
         [0:v] setpts=PTS-STARTPTS, scale=960x540 [upperleft];
