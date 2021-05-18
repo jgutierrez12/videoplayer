@@ -11,4 +11,5 @@
 #	-c:v libx264 -preset superfast -crf 18 -r 500/21 -f matroska - | ffplay -
 
 
-vlc --vlm-conf lacova.vlm.conf --mosaic-width=960 --mosaic-height=1080 --image-duration=-1 --mosaic-keep-aspect-ratio --mosaic-keep-picture
+vlc --vlm-conf lacova.vlm.conf --mosaic-width=540 --mosaic-height=540 --image-duration=-1 --mosaic-keep-aspect-ratio --mosaic-keep-picture
+
